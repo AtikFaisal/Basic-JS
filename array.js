@@ -7,10 +7,10 @@ const mixed = [44, "hello", true, undefined, null, {a: 1, b:2}, new Date()];
 let value;
 
 
-value = numbers.length;
-value = Array.isArray(numbers);
-value = numbers[2]
-value = numbers[0]
+// value = numbers.length;
+// value = Array.isArray(numbers);
+// value = numbers[2]
+// value = numbers[0]
 
 
 numbers.push(100);
@@ -23,7 +23,7 @@ numbers.splice(1, 3);
 numbers.reverse();
 
 console.log(numbers);
-console.log(value);
+console.log(numbers.length);
 
 
 
