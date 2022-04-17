@@ -17,9 +17,15 @@ var n = 10;
 // undefined
 // NaN
 
-console.log(Boolean(''))
-console.log(Boolean("Atik Faisal"))
-console.log(Boolean(null))
-console.log(Boolean(undefined))
-console.log(Boolean(0))
-console.log(Boolean(121))
+// console.log(Boolean(''))
+// console.log(Boolean("Atik Faisal"))
+// console.log(Boolean(null))
+// console.log(Boolean(undefined))
+// console.log(Boolean(0))
+// console.log(Boolean(121))
+
+var hex = 0xff;
+console.log(hex)
+
+var oct = 0756;
+console.log(oct)
