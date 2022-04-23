@@ -1,7 +1,7 @@
 var date = new date();
 console.log(date.toDateString())
-console.log(date.toTimestring())
-console.log(date.toLocalstring())
+console.log(date.toTimeString())
+console.log(date.toLocalString())
 
 console.log(date.getFullYear())
 console.log(date.getMonth())
